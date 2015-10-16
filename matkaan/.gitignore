@@ -1,0 +1,11 @@
+/target/
+*.sw*
+*.class
+.metadata
+bin/
+*.tmp
+*.bak
+tmp/
+.settings/
+.project
+

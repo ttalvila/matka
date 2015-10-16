@@ -51,6 +51,10 @@ public class AikatauluTest {
 		assertArrayEquals(reitti.toArray(), aikataulu.getReitti().toArray());
 	}
 
+	@Test
+	public void testLahtoAika() {
+		assertEquals(new Date(200000), aikataulu.getLahtoaika());
+	}
 
 
 }
